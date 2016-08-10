@@ -203,17 +203,17 @@ ruby:
         rv_i5ikp4e9ueve:
             default: '1'
             bundler: '1'
-            version: 1.9.3
+            version: 2.3.0
             gems:
-                - deep_merge
-                - activesupport
-                - vine
+                - deep_merge@1.0.1
+                - activesupport@4.2.6
+                - vine@0.2
 python:
     install: '1'
     packages: {  }
     versions: {  }
 nodejs:
-    install: '0'
+    install: '1'
     settings:
         version: '5'
     npm_packages: {  }
